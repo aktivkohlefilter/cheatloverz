@@ -1,0 +1,41 @@
+body {
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #fd5d93;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+
+   
+}
+
+
+
+
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+
+.form__message--error {
+    color: var(--color-error);
+}
+
+.form__input:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.form__input--error {
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.form__input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
+}
